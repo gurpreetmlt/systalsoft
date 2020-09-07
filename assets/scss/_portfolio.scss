@@ -30,4 +30,14 @@
     width: 100%;
     margin: 0 auto;
   }
+
+  .slick-prev {
+    background: transparent;
+    left: 100px;
+    z-index: 5;
+  }
+  .slick-next {
+    background: transparent;
+    right: 100px;
+  }
 }

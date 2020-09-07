@@ -117,6 +117,9 @@
 
 // media quaries for 767px
 @media screen and (max-width: 991px) {
+  .container {
+    border: 5px solid blue;
+  }
   .header {
     .toggle {
       display: block;
@@ -170,6 +173,12 @@
   }
   .footer .footer__form .footer__col .email .email__btn {
     width: auto;
+  }
+  .facility__section .facility .facility__wrapper {
+    width: auto;
+  }
+  .contactUs .contactUs__wrapper .country .country__img {
+    padding: 5px;
   }
 }
 
