@@ -1,0 +1,45 @@
+.btn {
+  padding: 20px 40px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: $yellow;
+
+  &:hover {
+    color: #fff;
+    background-color: #ef6700;
+  }
+}
+.btn--outline {
+  color: $yellow;
+  border: 1px solid $yellow;
+  background-color: transparent;
+}
+
+// pulse btn effects
+.pulse {
+  display: inline-block;
+  width: 22px;
+  position: absolute;
+  margin-left: -30px;
+  height: 22px;
+  border-radius: 50%;
+  border: 4px solid #ff6e00;
+  cursor: pointer;
+  box-shadow: 0 0 0 #ff6e00;
+  animation: pulse 1.5s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(191, 82, 0, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(191, 82, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(191, 82, 0, 0);
+  }
+}

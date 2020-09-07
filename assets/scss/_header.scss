@@ -1,0 +1,81 @@
+header {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 5px 6px -6px #ccc;
+  .nav {
+    .navbar {
+      margin-bottom: 0;
+      padding: 0;
+      .nav__item {
+        margin-left: 60px;
+        .nav__link {
+          font-size: 18px;
+          font-weight: 400;
+          position: relative;
+
+          &:hover {
+            color: $yellow;
+          }
+
+          &:hover::after {
+            color: $yellow;
+            width: 100%;
+          }
+        }
+
+        .nav__link::after {
+          content: "";
+          position: absolute;
+          display: block;
+          left: 0;
+          width: 0;
+          bottom: -5px;
+          height: 1px;
+          background: $yellow;
+          transition: all 0.2s;
+        }
+      }
+    }
+  }
+  .toggle {
+    position: relative;
+    top: 24px;
+    cursor: pointer;
+    display: none;
+
+    span {
+      position: absolute;
+      width: 50px;
+      height: 5px;
+      top: 0;
+      right: 0;
+      background-color: #000;
+      transition: all 0.5s linear;
+    }
+    span:nth-child(1) {
+      transform: translateY(-10px);
+    }
+    span:nth-child(4) {
+      transform: translateY(10px);
+    }
+  }
+  .toggle:hover span:nth-child(1) {
+    transform: translateY(-25px);
+    opacity: 0;
+  }
+  .toggle:hover span:nth-child(4) {
+    transform: translateY(25px);
+    opacity: 0;
+  }
+  .toggle:hover span:nth-child(2) {
+    transform: rotate(45deg);
+    transition-delay: 0.2s;
+  }
+  .toggle:hover span:nth-child(3) {
+    transform: rotate(-45deg);
+    transition-delay: 0.2s;
+  }
+}

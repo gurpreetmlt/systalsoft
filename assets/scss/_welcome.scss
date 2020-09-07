@@ -1,0 +1,47 @@
+.welcome {
+  .welcome__section {
+    margin: auto;
+  }
+  .section__left {
+    margin-bottom: 0;
+    .card__wrapper {
+      padding: 20px;
+
+      .card {
+        box-shadow: 1px 1px 20px 5px #fbf7f5;
+        border: none;
+        display: inline-block;
+        max-width: 400px;
+        padding: 30px;
+        .card__title {
+          font-size: 25px;
+          font-weight: 500;
+          padding-bottom: 10px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .section_right {
+    padding-left: 50px;
+    .section__heading {
+      font-size: 45px;
+      margin-bottom: 0;
+      min-height: 170px;
+      padding-bottom: 50px;
+    }
+    .heading--large {
+      font-size: 70px;
+      color: $yellow;
+    }
+    .heading--black {
+      font-size: 70px;
+    }
+    .section__disc {
+      font-size: 22px;
+      line-height: 50px;
+      color: #292929;
+      opacity: 0.9;
+    }
+  }
+}

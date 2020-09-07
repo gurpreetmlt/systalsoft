@@ -1,0 +1,33 @@
+.portfolio {
+  .section__head {
+    padding: 50px 0;
+    line-height: 40px;
+    .title {
+      font-size: 45px;
+      font-weight: 400;
+    }
+    .title--change {
+      color: $yellow;
+    }
+    .disc {
+      font-size: 25px;
+      font-weight: 200;
+      line-height: 40px;
+    }
+  }
+  .section__body {
+    .heading {
+      position: absolute;
+      padding: 60px 0 25px;
+      color: #fff;
+      font-size: 45px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+  }
+  .portfolio__img {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

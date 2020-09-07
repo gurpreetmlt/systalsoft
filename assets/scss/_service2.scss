@@ -1,0 +1,183 @@
+.services2 {
+  background-color: #f8f8f8;
+  background-image: url(../img/Clip.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  .section__head {
+    .title {
+      .title__txt {
+        font-size: 30px;
+      }
+    }
+    .disc {
+      padding: 20px 0 65px;
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+  }
+  .section__body {
+    background-color: transparent;
+
+    .card {
+      border: none;
+      padding-bottom: 35px;
+      background-color: transparent;
+      .card__wrapper {
+        box-shadow: 1px 1px 20px 5px #fbf7f5;
+        border: 1px solid #bbbbbb;
+        display: inline-block;
+        background-color: #fff;
+        max-width: 360px;
+        padding: 30px;
+        border-radius: 10px;
+        height: 250px;
+        cursor: pointer;
+        transition: all 0.5s linear;
+
+        &:hover {
+          border: 1px solid #000;
+        }
+        .title {
+          position: relative;
+          cursor: pointer;
+          &:hover.card__title::after {
+            transform: translatex(10px);
+            opacity: 1;
+          }
+        }
+
+        .title::after {
+          content: "";
+          background-image: url(../img/right-arrow.svg);
+          background-repeat: no-repeat;
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          transform: translatex(-20px);
+          opacity: 0;
+
+          transition: all 0.5s linear;
+        }
+        .card__head {
+          padding-bottom: 20px;
+
+          .card__title {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+    .software {
+      box-shadow: 1px 1px 20px 5px #fbf7f5;
+      border: 1px solid #bbbbbb;
+      background-color: #fff;
+      border-radius: 10px;
+      max-width: 360px;
+      padding: 10px;
+      height: 73px;
+      transition: all 0.5s linear;
+
+      &:hover {
+        border: 1px solid #000;
+      }
+
+      .title {
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .title:hover.title::after {
+        opacity: 1;
+        transform: translatex(10px);
+      }
+      .title::after {
+        content: "";
+        background-image: url(../img/right-arrow.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transform: translatex(-20px);
+        opacity: 0;
+        transition: all 0.5s linear;
+      }
+    }
+    .software--mid {
+      background-color: #fff;
+      margin: 15px 0;
+      max-height: 73px;
+    }
+    .ourService {
+      .main__service {
+        padding-bottom: 40px;
+        .icon {
+          margin-right: 10px;
+        }
+        .title {
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+    .service {
+      padding-bottom: 20px;
+      .title {
+        font-size: 18px;
+        font-weight: 200;
+      }
+      .icon {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.card--rotate {
+  position: relative;
+  z-index: 0;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953),
+      linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33),
+      linear-gradient(#377af5, #377af5);
+    animation: rotate 4s linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 6px;
+    top: 6px;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    background: white;
+    border-radius: 5px;
+  }
+}

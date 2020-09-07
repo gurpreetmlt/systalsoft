@@ -1,0 +1,36 @@
+.facility__section {
+  padding: 100px 0 200px;
+  min-height: 200px;
+  .facility {
+    margin: 0;
+    .facility__wrapper {
+      position: relative;
+      .facility__title {
+        font-size: 25px;
+        font-weight: 400;
+        position: relative;
+        bottom: -35px;
+      }
+    }
+    // .facility__wrapper::after {
+    //   content: "";
+    //   width: 5px;
+    //   height: 185px;
+    //   // color:#a4a4a4;
+    //   color: #000;
+    //   position: absolute;
+    //   z-index: 10;
+    //   left: 150px;
+    //   top: 0;
+    // }
+    .icon--small {
+      margin-bottom: 15px;
+    }
+    .midLine {
+      position: relative;
+      top: 0;
+      left: 50px;
+      z-index: 5;
+    }
+  }
+}

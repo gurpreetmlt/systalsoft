@@ -1,0 +1,232 @@
+// media quaries for 1198px
+@media screen and (max-width: 1199px) {
+  header .nav .navbar .nav__item {
+    margin-left: 40px;
+  }
+  .banner .banner__body .right__side .banner__img {
+    max-width: 670px;
+  }
+  .banner .banner__body .left__side .heading,
+  .banner .banner__body .left__side .section__heading {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .portfolio .section__body .heading,
+  .portfolio .section__body .section__heading {
+    padding: 23px 0 32px;
+    font-size: 29px;
+  }
+  .footer .footer__form .footer__col .footer__nav {
+    font-size: 23px;
+  }
+}
+
+// media quaries for 991px
+@media screen and (max-width: 991px) {
+  .nav {
+    display: none;
+  }
+  //   .navbar-toggle-icon {
+  //     display: block;
+  //   }
+
+  .banner {
+    .banner__head {
+      .Notice {
+        width: 100%;
+      }
+    }
+    .banner__body {
+      .left__side {
+        .heading {
+          font-size: 27px;
+        }
+        .disc {
+          font-size: 16px;
+        }
+        .banner__btn {
+          display: flex;
+        }
+      }
+    }
+  }
+  .facility__section .facility .midLine {
+    left: 37px;
+  }
+  .facility__section .facility .facility__wrapper .facility__title {
+    font-size: 18px;
+  }
+  .welcome {
+    .welcome__section {
+      flex-wrap: wrap;
+      .section__left {
+        display: block;
+      }
+      .section_right {
+        width: 100%;
+        display: block;
+        .section__heading {
+          font-size: 50px;
+          padding-bottom: 30px;
+          br {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .services2 {
+    background-size: cover;
+
+    .ourService {
+      padding: 10px 0;
+    }
+  }
+  .portfolio {
+    .section__head {
+      padding: 30px 0;
+      .disc {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .portfolio .section__body .heading,
+  .portfolio .section__body .section__heading {
+    padding: 22px 0 32px;
+    font-size: 26px;
+  }
+  .contactUs {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    background-size: 100%;
+  }
+  .contactUs .contactUs__wrapper .wrapper__heading {
+    font-size: 26px;
+    font-weight: 500;
+    padding: 15px 0;
+  }
+  .contactUs .contactUs__wrapper .country {
+    padding: 10px 0;
+  }
+  .footer__form {
+    .footer__col {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+// media quaries for 767px
+@media screen and (max-width: 991px) {
+  .header {
+    .toggle {
+      display: block;
+    }
+  }
+  .banner .banner__head .Notice {
+    display: flex;
+  }
+  .banner .banner__body .left__side .heading,
+  .banner .banner__body .left__side .section__heading {
+    br {
+      display: none;
+    }
+  }
+  .banner__body {
+    .right__side {
+      margin: 50px auto 0;
+    }
+  }
+  .facility__section {
+    padding: 50px 0 0 0;
+    .facility {
+      width: 100%;
+      flex-wrap: wrap;
+
+      .facility__wrapper {
+        width: 50%;
+        margin: 0 auto 70px;
+        .midLine {
+          display: none;
+        }
+      }
+    }
+  }
+  .welcome .section__left .card__wrapper .card {
+    max-width: 437px;
+  }
+  .services2 .section__body .card .card__wrapper {
+    max-width: 475px;
+  }
+  .services2 .section__body .software {
+    max-width: 475px;
+  }
+  .portfolio .section__head .disc {
+    font-size: 20px;
+  }
+  .portfolio .section__body .heading,
+  .portfolio .section__body .section__heading {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .footer .footer__form .footer__col .email .email__btn {
+    width: auto;
+  }
+}
+
+// media quaries for 575px
+@media screen and (max-width: 575px) {
+  body {
+    overflow-x: hidden;
+  }
+  .btn {
+    padding: 20px 27px;
+    font-size: 1rem;
+  }
+  .banner .banner__head .Notice {
+    .btn {
+      display: none;
+    }
+  }
+  .banner .banner__body .right__side .banner__img {
+    right: 0;
+  }
+  .facility__section {
+    display: none;
+  }
+  .contactUs {
+    display: none;
+  }
+  .welcome {
+    text-align: center;
+  }
+  .welcome__section {
+    display: flex;
+    justify-content: center;
+
+    .card__wrapper {
+      text-align: center;
+    }
+  }
+  .welcome .section_right {
+    padding-left: 0;
+  }
+  .welcome .section__left .card__wrapper {
+    padding: 0 0 20px 0;
+  }
+  .welcome .section_right .heading--black,
+  .welcome .section_right .heading--large,
+  .welcome .welcome__section .section_right .section__heading {
+    font-size: 45px;
+    line-height: 65px;
+  }
+  .footer__form .footer__col {
+    line-height: 35px;
+  }
+  .footer .footer__form .footer__col .email .email__label {
+    height: 112%;
+    width: 39%;
+  }
+  .footer .footer__form .footer__col .email {
+    padding: 3px 10px;
+  }
+}
