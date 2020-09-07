@@ -48,8 +48,8 @@ header {
 
     span {
       position: absolute;
-      width: 50px;
-      height: 5px;
+      width: 40px;
+      height: 4px;
       top: 0;
       right: 0;
       background-color: #000;
@@ -63,11 +63,11 @@ header {
     }
   }
   .toggle:hover span:nth-child(1) {
-    transform: translateY(-25px);
+    transform: translateY(-15px);
     opacity: 0;
   }
   .toggle:hover span:nth-child(4) {
-    transform: translateY(25px);
+    transform: translateY(15px);
     opacity: 0;
   }
   .toggle:hover span:nth-child(2) {

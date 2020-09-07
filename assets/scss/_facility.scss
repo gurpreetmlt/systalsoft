@@ -3,6 +3,10 @@
   min-height: 200px;
   .facility {
     margin: 0;
+
+    .content {
+      text-align: center;
+    }
     .facility__wrapper {
       position: relative;
       .facility__title {
@@ -29,7 +33,7 @@
     .midLine {
       position: relative;
       top: 0;
-      left: 50px;
+      left: 75px;
       z-index: 5;
     }
   }
