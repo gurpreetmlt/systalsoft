@@ -1719,6 +1719,9 @@ input {
     margin-bottom: 20px; }
 
   p {
-    text-align: justify; } }
+    text-align: justify; }
+
+  .btn {
+    padding: 13px 15px 13px 48px; } }
 
 /*# sourceMappingURL=style.css.map */
