@@ -41,3 +41,46 @@
     right: 100px;
   }
 }
+
+#portfolio{
+  header {
+    padding: 20px 0;
+    height: 130px;
+    box-shadow: none;
+    
+    .btn--outline{
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  .servicePortfolio{
+    background-color: #fff;
+    padding: 50px 0 100px 0;
+    .section__head{
+      .section__tittle{
+        color: #838383;
+        margin-bottom: 5px;
+      }
+      p{
+        font-size: 25px;
+      }
+    }
+    .row.bottom-row{
+
+      .section__body{
+        flex-direction: row-reverse;
+      }
+    }
+  }
+  .conformation {
+    background-color: #fef7f0;
+    .section__tittle{
+      font-size: 25px;
+      font-weight: 400;
+      color: #393939;
+    }
+  }
+  .service__footer {
+    border-top: none;
+  }
+}

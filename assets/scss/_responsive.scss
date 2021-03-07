@@ -1,5 +1,75 @@
-// media quaries for 1199px
-@media screen and (max-width: 1199px) {
+// media quaries for 1400px
+@media screen and (max-width: 1400px){
+    .advantageSection .allAdvantage {
+      margin-left: 15%;
+  }
+  .advantageSection .leftSideImg{
+    width: 100%;
+  }
+  .advantageSection .allAdvantage{
+    margin-left: 10%;
+  }
+  .advantageSection .allAdvantage {
+    top: 0;
+  }
+  .serviceTestimonials .section__body .section__left-side .user-img {
+    left: 35%;
+    bottom: 28%;
+    width: 100%;
+    max-width: 200px;
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content .companyName {
+    margin: 15px 0;
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    max-width: 27%;
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content .disc {
+    font-size: 18px;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content {
+    top: 43%;
+  }
+  .serviceTestimonials .section__body .section__left-side .user-img {
+    bottom: 20%;
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner {
+    margin-top: 0;
+  }
+  .serviceTestimonials .row.section__head.text-center{
+    margin-bottom: 3%;
+  }
+  .serviceTestimonials .section__body .section__left-side  img{
+    width: 100%;
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner li {
+    width: 50%;
+    transform: scale(0.7);
+  }
+  #portfolio header .nav .navbar .nav__item {
+    margin-left: 30px;
+  }
+  #portfolio header .logo__img{
+    transform: scale(0.7
+    );
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content {
+    top: 33%;
+}
+}
+
+
+// media quaries for 1200px
+@media screen and (max-width: 1200px) {
   header .nav .navbar .nav__item {
     margin-left: 40px;
   }
@@ -22,13 +92,112 @@
   .facility__section .facility .midLine {
     left: 45px;
   }
+  .servicePortfolio .row:nth-child(2){
+    align-items: center;
+  }
+  .servicePortfolio .section__body .section__right-side .section__disc {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .advantageSection .allAdvantage {
+    margin-bottom: 10%;
+    margin-left: 2%;
+    height: 400px;
+    width: 420px;
+  }
+  .advantageSection :nth-child(2).col-md-6 {
+    margin-top: 0;
+  }
+  .service__footer .serviceForm .col-12:last-of-type div:first-child{
+    flex-direction: column;
+  }
+  .service__footer .serviceForm .col-12:last-of-type .col-7{
+    width: 80%;
+    margin: 20px 0;
+  }
+  .service__footer .serviceForm .col-12:last-of-type .col-5{
+    width: 50%;
+  }
+  .service__footer .serviceForm .col-12:last-of-type .col-5 div:first-child{
+    flex-direction: row;
+  }
+  .service__footer .serviceForm .col-12:first-of-type .col-md-4{
+    width: 30%;
+  }
+  .service__footer .serviceForm .col-12:first-of-type .col-md-3{
+    width: 26%;
+  }
+  .service__footer .serviceForm input, .service__footer .serviceForm textarea {
+    max-width: 380px;
+  }
+  .softwareHouse .softwareHouse-left{
+    width: 40%;
+  }
+  .softwareHouse .softwareHouse-right{
+    width: 60%;
+  }
+  .advantageSection .leftSideImg{
+    width: 90%;
+    margin-top: 10%;
+  }
+  .advantageSection .allAdvantage{
+    transform: scale(0.9);
+    margin-bottom: 20%;
+    top: 70px;
+  }
+  .advantageSection .row.mt-5{
+    margin-top: 0 !important;
+  }
+  .service__banner .banner__body .right__side .banner__img {
+    width: 70%;
+  }
+  .serviceCard .Cards .Card1 {
+    top: -140px;
+  }
+  .serviceTestimonials .section__body .section__left-side .user-img {
+    max-width: 170px;
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner li {
+    transform: scale(0.5);
+  }
+  .serviceTestimonials .section__body .section__left-side img {
+    width: 110%;
+  }
+  #portfolio header .logo__img {
+    transform: scale(0.6);
+  }
+  #portfolio header .nav .navbar .nav__item {
+    margin-left: 12px;
+  }
+  .servicePage-tool .software {
+    width: 14%;
+}
+.serviceTestimonials .section__body .section__left-side .left-side-content {
+  top: 44%;
+}
+#call-to-action-form .section .section-left-side {
+  padding: 50px;
+}
+#call-to-action-form .section .section-right-side{
+  padding: 50px;
+}
+#call-to-action-form .section .section-right-side .inner p:first-of-type {
+  font-size: 22px;
+}
+#call-to-action-form .section .section-right-side .section-footer .all-img{
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#call-to-action-form .section .section-right-side .section-footer .all-img img {
+  transform: scale(0.6);
+  flex: 0 0 50%;
+  width: 50%;
+}
+
 }
 
 // media quaries for 991px
-@media screen and (max-width: 991px) {
-  .nav {
-    display: none;
-  }
+@media screen and (max-width: 992px) {
   //   .navbar-toggle-icon {
   //     display: block;
   //   }
@@ -122,10 +291,6 @@
       height: 526%;
     }
   }
-}
-
-// media quaries for 767px
-@media screen and (max-width: 991px) {
   .header {
     .toggle {
       display: block;
@@ -191,17 +356,253 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+  .checkBtn{
+    display: block;
+  }
+  .nav {
+    opacity: 0;
+    right: -999px;
+    transition: all 0.1s ease-in-out;
+  }
+  .humburger__menu .nav{
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+    position: absolute;
+    // right: -30px;
+    top: 0;
+    transition: 0.5s;
+    // display: none;
+
+
+    .navbar{
+      display: flex;
+      flex-direction: column;
+      top: 10%;
+      align-items: center;
+      margin: 0 auto;
+
+      .nav__item{
+        margin: 15px;
+
+        .nav__link{
+          font-size: 30px;
+          text-transform: uppercase;
+
+          &:hover{
+            border-radius: 2px solid;
+          }
+        }
+        
+      }
+    }
+  }
+  #check:checked ~  .nav{
+    // display: block;
+    // visibility: visible;
+    opacity: 1;
+    right: 0;
+    // right: 0;
+    // transform: translateY(0);
+  }
+  .nav-change{
+    display: block ;
+  }
+  .softwareHouse {
+    display: none;
+  }
+  .service__footer .serviceForm .col-12:first-of-type .col-md-3 {
+    width: 50%;
+  }
+  .service__footer .serviceForm .col-12:first-of-type .col-md-4 {
+    width: 50%;
+  }
+  .service__footer .serviceForm .fill-details {
+    width: 100%;
+  }
+  .service__footer .serviceForm input, .service__footer .serviceForm textarea {
+    max-width: 546px;
+  }
+  .service__footer .serviceForm .payment {
+    flex-direction: column;
+  }
+  .serviceCard .Cards .Card {
+    width: 100%;
+    position: unset;
+  }
+  .servicePortfolio .row:nth-child(2) {
+    flex-direction: column;
+  }
+  .servicePortfolio .row:nth-child(2) .col-md-6:first-of-type {
+    width: 90%;
+  }
+  .servicePortfolio .row:nth-child(2) .col-md-6:last-of-type {
+    width: 100%;
+  }
+  .serviceTestimonials .section__body .section__left-side img {
+    width: 115%;
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner li {
+    transform: scale(0.5);
+  }
+  #portfolio header .btn--outline{
+    display: none;
+  }
+  #portfolio .servicePortfolio .row.bottom-row .section__body .section__left-side{
+    width: 100%;
+    margin-top: 10%;
+  }
+  #portfolio .servicePortfolio .row.bottom-row .section__body .section__right-side{
+    width: 100%;
+  }
+  #portfolio .servicePortfolio .btn{
+    width: 24%;
+    margin-top: 10%;
+  }
+  #portfolio .servicePortfolio .row.bottom-row .section__body {
+    padding: 0 10px;
+  }
+  .servicePortfolio .section__body .portfolio-img {
+    margin-bottom: 20px;
+  }
+  header .nav .navbar .nav__item .nav__link:hover::after {
+    height: 3px;
+  }
+  #portfolio header {
+    height: 90px;
+  }
+  .servicePage-tool .software {
+    width: 24%;
+    margin: 10px;
+}
 }
 
+
+
+
+// media quaries for 768px
+@media screen and (max-width: 768px){
+  .serviceCard .Cards .Card{
+    width: 100%;
+    position: unset;
+  }
+  .heading, .section__heading {
+    font-size: 35px;
+  }
+  .advantageSection .row.mt-5{
+    flex-direction: column;
+  }
+  .advantageSection .leftSideImg {
+    width: auto;
+  }
+  .advantageSection .allAdvantage {
+    margin-bottom: 30%;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  .softwareHouse {
+    display: none;
+  }
+  .servicePortfolio .row:nth-child(2) {
+    flex-direction: column;
+  }
+  .servicePortfolio .row:nth-child(2) .col-md-6:first-of-type{
+    width: 90%;
+  }
+  .servicePortfolio .row:nth-child(2) .col-md-6:last-of-type{
+    width: 100%;
+  }
+  .service__footer .serviceForm .col-12:first-of-type .col-md-4 {
+    width: 50%;
+  }
+  .service__footer .serviceForm input, .service__footer .serviceForm textarea {
+    max-width: 680px;
+    width: 100%;
+  }
+  .service__footer .serviceForm .fill-details {
+    width: 100%;
+    max-width: 700px;
+  }
+  .service__footer .serviceForm .col-12:last-of-type .col-7 {
+    width: 100%;
+  }
+  .service__footer .serviceForm .allpayments img {
+    margin: 0 15px;
+    width: 100%;
+  }
+  .service__footer .serviceForm .payment {
+    flex-direction: row;
+  }
+  .servicePortfolio .section__body {
+    padding:  0;
+  }
+  .servicePortfolio .section__body .portfolio-img {
+    margin-bottom: 10%;
+  }
+  .serviceTestimonials .section__body .section__left-side img {
+    width: 100%;
+  }
+  .serviceTestimonials .section__body .section__left-side .user-img {
+    max-width: 200px;
+    left: 55%;
+    bottom: 48%;
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content {
+    top: 27%;
+    left: 10%;
+  }
+  .serviceTestimonials .section__body  .section__left-side{
+    width: 100%;
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner li {
+    width: 30%;
+    transform: scale(0.7);
+  }
+  .serviceTestimonials .section__body .section__right-side{
+    margin-top: 5%;
+    width: 100%;
+  }
+  .serviceTestimonials .section__body .section__left-side img:first-of-type{
+    height: 380px;
+  }
+  .serviceTestimonials .section__body .section__left-side .user-img {
+    max-width: 170px;
+  }
+  .servicePage-tool .software {
+    width: 30%;
+    margin: 10px;
+}
+#call-to-action-form .section .section-right-side {
+  padding: 50px;
+  width: 100%;
+}
+#call-to-action-form .section .section-left-side {
+  padding: 50px;
+  width: 100%;
+}
+#call-to-action-form .section .row {
+  flex-direction: column;
+}
+#call-to-action-form {
+  background: #2a2a2e;
+  margin:  0;
+}
+#call-to-action-form .section .section-right-side .section-footer .all-img img {
+  transform: scale(0.6);
+  flex: 0 0 33.33%;
+  width: 33.33%;
+}
+}
+
+
 // media quaries for 575px
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
+  .nav{
+    width: 100%;
+  }
   body {
     overflow-x: hidden;
   }
-  // .btn {
-  //   padding: 20px 27px;
-  //   font-size: 1rem;
-  // }
   .banner .banner__head .Notice {
     .btn {
       display: none;
@@ -262,14 +663,6 @@
     }
   }
 
-  // .pulse,
-  // .pulse--white {
-  //   height: 10px;
-  //   width: 10px;
-  //   border: 3px solid #fff;
-  //   left: 9px;
-  //   top: 27px;
-  // }
   .services2 {
     .section__head {
       .title {
@@ -277,4 +670,125 @@
       }
     }
   }
+  .advantageSection .allAdvantage {
+    margin-left: 10%;
+  }
+  .service__footer .serviceForm input, .service__footer .serviceForm textarea {
+    max-width: 92%;
+    width: 100%;  
+  }
+  .advantageSection .leftSideImg {
+    width: 100%;
+  }
+  .service__footer .serviceForm .col-12:last-of-type div:first-child {
+    flex-direction: column;
+  }
+  .service__footer .serviceForm .col-12:last-of-type .col-5 {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .service__footer .serviceForm .payment {
+    flex-direction: column;
+  }
+  .service__footer .serviceForm .btn {
+    padding: 5px;
+  }
+  .checkBtn {
+    top: -25px;
+  }
+  .banner .banner__body .right__side .banner__img {
+    right: 15%;
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner li {
+    width: 30%;
+    transform: scale(0.5);
+  }
+  #portfolio .conformation .section__heading {
+    margin-bottom: 50px;
+  }
+  .servicePage-tool .row.justify-content-center{
+    padding: 0;
+  }
+  .servicePage-tool .software {
+    width: 46%;
+}
+}
+
+// max width 480px
+@media(max-width:480px){
+  .service__footer .serviceForm .col-12:first-of-type .col-md-4 {
+    width: 100%;
+  }
+  .service__footer .serviceForm .col-12:first-of-type .col-md-3 {
+    width: 80%;
+  }
+  .servicePortfolio .section__body {
+    padding:  0;
+  }
+  .servicePortfolio .row:nth-child(2) .col-md-6:first-of-type {
+    margin-bottom: 10%;
+  }
+  .service__banner .banner__body .right__side .banner__img {
+    padding-top: 0;
+    top: -30px;
+  }
+  .advantageSection .allAdvantage {
+    margin-left: -30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    transform: scale(0.6);
+    top: 0;
+  }
+  .servicePortfolio .section__body .section__right-side .ourTechnologies img {
+    transform: scale(0.6);
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner {
+    padding: 0;
+  }
+  .serviceTestimonials .section__body .section__right-side .ourPatner li {
+    width: 50%;
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content {
+    top: 31%;
+  }
+  .serviceTestimonials .section__body .section__left-side .user-img {
+    max-width: 140px;
+  }
+  .serviceTestimonials .section__body .section__left-side .left-side-content {
+    max-width: 37%;
+  }
+  #portfolio .conformation .section__tittle {
+    font-size: 18px;
+  }
+  #portfolio .conformation .section__heading {
+    font-size: 27px;
+    margin: 20px 0 35px 0
+  }
+  .servicePage-tool .software {
+    width: 70%;
+}
+ .checkBtn{
+  top: -4px;
+}
+ .checkBtn .humburger__icon:nth-child(1) {
+  top: 8px;
+}
+ .checkBtn .humburger__icon:nth-child(2) {
+  top: 20px;
+}
+.checkBtn .humburger__icon:nth-child(3) {
+  top: 33px;
+}
+#sevice .checkBtn {
+  top: -23px;
+}
+#call-to-action-form .section .section-right-side .inner {
+  flex-direction: column;
+}
+#call-to-action-form .section .section-right-side .inner .inner-img {
+  margin-bottom: 20px;
+}
+p{
+  text-align: justify;
+}
 }

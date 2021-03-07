@@ -61,3 +61,39 @@
     }
   }
 }
+
+// service banner
+.service__banner{
+  .banner__body{
+    .left__side{
+      .heading{
+        color: $yellow;
+      }
+      .disc{
+        color: #968c8c;
+      }
+    }
+    .right__side{
+      .banner__img{
+        position: relative;
+        right: 60px;
+        max-width: 485px;
+        width: 100%;
+        float: right;
+        padding-top: 80px;
+      }
+    }
+  }
+}
+
+// .service__banner::after{
+//   content: "";
+//   height: 100%;
+//   width: 100%;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   background: url('../img/service-img/banner-top-vector.png') no-repeat;
+//   background-position: right;
+//   z-index: 111;
+// }

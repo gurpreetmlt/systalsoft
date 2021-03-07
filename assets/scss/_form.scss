@@ -1,0 +1,84 @@
+#call-to-action-form{
+    background: #2a2a2e;
+    margin: 100px 0;
+
+    .section{
+
+        .section-left-side{
+            background-color: #fff;
+            padding: 80px;
+            h1{
+                font-size: 60px;
+                font-weight: 900;
+                margin-bottom: 30px;
+            }
+            input,textarea{
+                border-bottom: 1px solid #bababa;
+                border: none;
+                border-bottom-color: currentcolor;
+                border-bottom-style: none;
+                border-bottom-width: medium;
+                border-bottom: 1px solid #bababa;
+                width: 100%;
+                padding: 20px 20px 10px 20px;
+                margin: 15px  0;
+                -webkit-appearance: none;
+                -moz-appearance: textfield;
+            }
+            [type="submit"]{
+                border: none;
+                width: 30%;
+                padding: 20px;
+                margin-top: 50px;
+            }
+            textarea {
+                height: 55px;
+            }
+        }
+        .section-right-side{
+            background-color: #fef7f0;
+            position: relative;
+            padding: 80px;
+            .inner{
+                margin-bottom: 30px;
+                .inner-img {
+                    margin-right: 5%;
+                }
+                p:first-of-type{
+                    margin-bottom: 10px;
+                    font-size: 25px;
+                    color: #2e2e2e;
+                }
+                p:last-of-type{
+                    font-size: 20px;
+                    color: #5b5b5b;
+                }
+            }
+            .section-footer {
+                margin-top: 50px;
+                h6{
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .all-img{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    img{
+
+                        transform: scale(0.7);
+                    }
+                }
+            }
+        }
+        // .col-md-6.section-right-side::after {
+        //     content: "";
+        //     position: absolute;
+        //     height: 100%;
+        //     width: 300px;
+        //     background: #fef7f0;
+        //     top: 0;
+        //     right: -300px;
+        // }
+    }
+}

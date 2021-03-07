@@ -1,0 +1,351 @@
+.serviceCard{
+    .Cards{
+        margin-left: -50px;
+margin-right: -20px;
+        .Card{
+            padding: 20px;
+            position: relative; 
+            transition: all 0.5s linear;
+            cursor: pointer;
+
+            &:hover{
+                transform: scale(1.03);
+                transition: all 0.5s linear;
+            }
+
+            .Card__wrapper{
+                border: 1px solid #464646;
+                border-radius: 10px;
+            }
+            .Card__img{
+                border-radius: 10px;
+                padding-top: 20px;
+                background: #FFFFFF;
+                background: -webkit-linear-gradient(bottom, #FFFFFF, #EDEDFF);
+                background: -moz-linear-gradient(bottom, #FFFFFF, #EDEDFF);
+                background: linear-gradient(to top, #FFFFFF, #EDEDFF);
+            }
+            .Card__content{
+                padding: 20px;
+                .Card__heading{
+                    font-size: 42px;
+                    font-weight: 700;
+                }
+                .Card__disc{
+                    color: #3a3a3a;
+                    line-height: 1.5;
+                }
+                .our-tools{
+                    .our-tool{
+                        margin-bottom: 20px;
+                        .our-tools-link{
+                            color: $yellow;
+                        }
+                    }
+  
+                }
+            }
+        }
+
+        .Card1{
+            top: -180px;
+        }
+        .Card2{
+            top: 30px;
+
+            .Card__img2{
+                background: #FFFFFF;
+                background: -webkit-linear-gradient(bottom, #FFFFFF, #FFF5EB);
+                background: -moz-linear-gradient(bottom, #FFFFFF, #FFF5EB);
+                background: linear-gradient(to top, #FFFFFF, #FFF5EB);
+            }
+        }
+        .Card3{
+            top: -120px;
+
+            .Card__img3{
+                background: #FFFFFF;
+                background: -webkit-linear-gradient(bottom, #FFFFFF, #FFF8CA);
+                background: -moz-linear-gradient(bottom, #FFFFFF, #FFF8CA);
+                background: linear-gradient(to top, #FFFFFF, #FFF8CA);
+            }
+        }
+        .Card4{
+            top: 20px;
+
+            .Card__img4{
+                background: #FFFFFF;
+                background: -webkit-linear-gradient(bottom, #FFFFFF, #C9DAF7);
+                background: -moz-linear-gradient(bottom, #FFFFFF, #C9DAF7);
+                background: linear-gradient(to top, #FFFFFF, #C9DAF7);
+            }
+        }
+        .Card5{
+            top: -70px;
+
+            .Card__img5{
+                background: #FFFFFF;
+                background: -webkit-linear-gradient(bottom, #FFFFFF, #D5FFF7);
+                background: -moz-linear-gradient(bottom, #FFFFFF, #D5FFF7);
+                background: linear-gradient(to top, #FFFFFF, #D5FFF7);
+            }
+        }
+        .Card6{
+            top: 70px;
+            .Card__img6{
+                background: #FFFFFF;
+                background: -webkit-linear-gradient(bottom, #FFFFFF, #C9DAF7);
+                background: -moz-linear-gradient(bottom, #FFFFFF, #C9DAF7);
+                background: linear-gradient(to top, #FFFFFF, #C9DAF7);
+            }
+        }
+        .Card7{
+            top: -20px;
+
+            .Card__img7{
+                background: #FFFFFF;
+                background: -webkit-linear-gradient(bottom, #FFFFFF, #D6FFF7);
+                background: -moz-linear-gradient(bottom, #FFFFFF, #D6FFF7);
+                background: linear-gradient(to top, #FFFFFF, #D6FFF7);
+            }
+        }
+    }
+}
+
+.softwareHouse{
+    .section__heading{
+        color:$yellow;
+        margin-bottom: 50px;
+    }
+    .nav-link-btn{
+        padding: 20px;
+        border-right: 1px solid #464646;
+    }
+    .nav-link{
+        margin: 10px 0;
+        padding: 20px;
+    }
+    .nav-link-txt{
+        padding: 20px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: $yellow;
+    }
+    .nav-pills .nav-link {
+        border-radius: .25rem;
+        border: 1px solid #464646;
+    }
+    .tab-content{
+        .tab__heading{
+            font-size: 40px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+        .tab__info{
+            color: #3a3a3a;
+            font-size: 18px;
+        }
+        .outputResult{
+            margin-top: 40px;
+            padding: 25px;
+            background-color: #fef7f0;
+            border-radius: 5px;
+        }
+        .outputResult span:first-child{
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    }
+}
+
+
+
+.advantageSection{
+
+        :nth-child(2).col-md-6{
+            margin-top: 50px;
+        }
+    .allAdvantage{
+        border: 10px solid black;
+        border-radius: 50%;
+        height: 450px;
+        width: 450px;
+        // float: right;
+        position: relative;
+        top: 70px;
+        text-align: center;
+        margin-left: 20%;
+
+        .heading{
+            width: 50%;
+            margin: 90px auto 10px;
+            font-size: 25px;
+        }
+
+        .content{
+            width: 50%;
+            margin: auto;
+        }
+
+        .tool{
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            cursor: pointer;
+            .toolImg{
+                border: 5px solid #000000;
+                padding: 10px;
+                border-radius: 50%;
+                background-color: #fff;
+                transition: all 0.2s linear;
+                height: 120px;
+                width: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .tool1{
+            top: -22%;
+            left: 37%;
+            .toolImg{
+                border: 5px solid #da6d67;
+            }
+        }
+        .tool2{
+            top: 14%;
+            left: -13%;
+        }
+        .tool3{
+            top: 76%;
+            left: 7%;
+        }
+        .tool4{
+            top: 76%;
+            left: 68%
+        }
+        .tool5{
+            top: 14%;
+            left: 87%;
+        }
+
+        .tool:hover .toolImg{
+            border: 5px solid #da6d67;
+        }
+    }
+}
+
+.servicePortfolio{
+    background-color: #fef7f0;
+    .section__head{}
+    .section__body{
+        .portfolio-img{
+            width: 100%;
+        }
+        padding: 100px 0;
+        .section__right-side{
+            .tittle{
+                font-size: 30px;
+                margin-bottom: 15px;
+                display: inline-block;
+            }
+            .section__heading{
+                font-size: 40px;
+                font-weight: 600;
+            }
+            .ourTechnologies{
+                margin: 40px 0 50px;
+                display: flex;
+
+                img{
+                    margin: 0 10px;
+                }
+            }
+            .section__disc{
+                font-size: 20px;
+                line-height: 45px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.serviceTestimonials{
+    position: relative;
+    .section__body{
+        align-items: center;
+
+        .section__left-side{
+            .left-side-content{
+                position: absolute;
+                top: 40%;
+                left: 10%;
+                max-width: 27%;
+
+                .companyName{
+                    margin: 35px 0;
+                }
+                .disc{
+                    font-size: 20px;
+                    line-height: 45px;
+                }
+            }
+            .user-img{
+                position: absolute;
+                left: 40%;
+                bottom: 23%;
+                right: 0;
+            }
+        }
+        .section__right-side{
+
+            .ourPatner{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                padding: 0 50px;
+                text-align: end;
+                margin-top: 30%;
+                
+                li{
+                    width: 50%;
+                    margin: 20px 0;
+                    display: inline-block;
+                }
+            }
+        }
+        // .section__left-side::after{
+        //     content: '';
+        //     background-image: url('../img/service-img/testimonils-bg.png');
+        //     background-repeat: no-repeat;
+        //     height: 100%;
+        //     width: 100%;
+        //     position: absolute;
+        //     position: absolute;
+        //     left: 0;
+        //     top: 40%;
+        //     z-index: -1;
+        // }
+    }
+}
+
+.conformation{
+    background-color: #e0dfdf;
+    // margin-top: 200px;
+    .section__heading{
+        margin-bottom: 80px;
+    }
+}
+.servicePage-tool{
+    overflow: hidden;
+    .footer__title{
+      margin-bottom: 60px;
+    }
+    .software{
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 10px;
+      width: 14.66%;
+    }
+  }

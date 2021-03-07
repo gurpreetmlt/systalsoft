@@ -56,3 +56,104 @@
     }
   }
 }
+
+
+.service__footer{
+  padding: 40px 0 50px;
+  border-top: 1px solid #f58632;
+  .serviceForm{
+    h4{
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    address{
+      line-height: 35px;
+      color: #3e3e3f;
+      font-size: 20px;
+    }
+    .phone-number{
+      margin-bottom: 20px;
+    }
+    .number{
+      flex-direction: column;
+      margin-left: 20px;
+      a{
+        color: #3e3e3f;
+        font-size: 20px;
+      }
+
+    }
+    .email {
+      .eamilAddress {
+        display: block;
+        margin-left: 20px;
+        max-width: 530px;
+
+
+      }
+    }
+    input,textarea{
+      margin: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid gray;
+      max-width: 530px;
+    }
+    .fill-details{
+      max-width: 565px;
+      }
+      .name .col-6{
+        padding: 0 10px;
+      }
+
+      input[name="firstname"],input[name="lasttname"] {
+        width: 100%;
+        margin: 10px 0;
+      }
+      .btn{
+        padding: 10px;
+      }
+      .socialIcon{
+        background: gray;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 23px;
+        margin: 10px;
+        height: 50px;
+        width: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+        &:hover{
+          background: $yellow;
+        }
+    }
+    .allpayments{
+      img{
+        margin: 0 20px;
+      }
+    }
+    .payment-hr{
+      // margin: 60px 0 40px;
+    }
+  }
+  .payment-hr{
+    border-top: 1px solid #9c9c9c;
+    max-width: 700px;
+  }
+}
+.copyrightSection{
+  background-color: #19252d;
+  padding: 20px 0;
+  color: #979797;
+  .copyright{
+    text-align: center;
+    p{
+      margin: 0;
+    }
+  }
+}
